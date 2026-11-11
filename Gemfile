@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'jekyll', '~> 4.4.1'
+gem 'jekyll-sass-converter', '~> 3.0'
+
 group :jekyll_plugins do
-  gem 'jekyll', '~> 4.4.1'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
